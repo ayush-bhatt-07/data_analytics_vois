@@ -1,0 +1,10 @@
+pandas==3.0.2
+numpy==2.4.4
+matplotlib==3.10.8
+seaborn==0.13.2
+scipy==1.17.1
+scikit-learn==1.8.0
+jupyter   # needed on YOUR computer to open/run the notebooks
+# --- Later, only if we decide they are justified (NOT installed yet) ---
+# shap        (Phase 10)
+# xgboost / lightgbm   (Phase 8, only if simple models are not enough)

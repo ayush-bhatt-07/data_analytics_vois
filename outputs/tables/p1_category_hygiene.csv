@@ -1,0 +1,7 @@
+column,n_unique,rows_with_extra_spaces,case_variant_labels
+State,8,0,0
+District,10,0,0
+Crop,8,0,0
+Season,3,0,0
+Irrigation_Method,4,0,0
+Farm_ID,4000,0,0

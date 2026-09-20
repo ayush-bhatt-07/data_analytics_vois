@@ -1,0 +1,5 @@
+,value
+rows with Yield missing,32.0
+...of which Production and Area are present,32.0
+recovery error on known rows: mean,0.0005790420381287697
+recovery error on known rows: max,0.010000000000000231

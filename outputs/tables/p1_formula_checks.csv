@@ -1,0 +1,6 @@
+formula,rows_tested,within_tolerance,tolerance,max_abs_diff,note,pct_within_tolerance
+Production = Yield x Area,3968,3968,0.005,0.005000000000002558,"Yield missing in 32 rows, so those rows cannot be tested",100.0
+Revenue = round(Production x Price),4000,4000,0.0,0.0,uses the stored (rounded) Production column,100.0
+Revenue = (Yield x Area) x Price  [alt.],3968,216,1.0,635.375,"tolerance 1 INR; fails for most rows, so Revenue uses the ROUNDED Production",5.443548387096774
+Profit = Revenue - Total_Cost,4000,4000,0.0,0.0,,100.0
+Water_Eff = Production / Water_Used x 1000,4000,4000,0.0005,0.000500000000000167,,100.0
